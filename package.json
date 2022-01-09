@@ -1,0 +1,19 @@
+{
+  "name": "token42",
+  "version": "1.0.0",
+  "description": "Token42 crypto token",
+  "main": "index.js",
+  "scripts": {
+    "test": "remix-tests tests/",
+    "start": "remixd -s ."  
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  },
+  "devDependencies": {
+    "@remix-project/remix-tests": "^0.2.9",
+    "@remix-project/remixd": "^0.5.5"
+  }
+}
